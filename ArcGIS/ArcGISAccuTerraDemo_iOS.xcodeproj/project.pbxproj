@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C064BECEDD077E266A417F /* Pods_ArcGISAccuTerraDemo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7A8157174EA657CEADA55B /* Pods_ArcGISAccuTerraDemo_iOS.framework */; };
+		6BD40ACC2575730A00B484C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD40ACB2575730A00B484C8 /* AppDelegate.swift */; };
+		6BD40ACE2575730A00B484C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD40ACD2575730A00B484C8 /* SceneDelegate.swift */; };
+		6BD40AD02575730A00B484C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD40ACF2575730A00B484C8 /* ViewController.swift */; };
+		6BD40AD32575730A00B484C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD40AD12575730A00B484C8 /* Main.storyboard */; };
+		6BD40AD52575730D00B484C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD40AD42575730D00B484C8 /* Assets.xcassets */; };
+		6BD40AD82575730D00B484C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD40AD62575730D00B484C8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BD40AC82575730A00B484C8 /* ArcGISAccuTerraDemo_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcGISAccuTerraDemo_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD40ACB2575730A00B484C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BD40ACD2575730A00B484C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6BD40ACF2575730A00B484C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BD40AD22575730A00B484C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BD40AD42575730D00B484C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BD40AD72575730D00B484C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BD40AD92575730D00B484C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D255804B05F0CB9DE06C055 /* Pods-ArcGISAccuTerraDemo_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcGISAccuTerraDemo_iOS.debug.xcconfig"; path = "Target Support Files/Pods-ArcGISAccuTerraDemo_iOS/Pods-ArcGISAccuTerraDemo_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9F7A8157174EA657CEADA55B /* Pods_ArcGISAccuTerraDemo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcGISAccuTerraDemo_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC521650AAE77B2F5EEC1099 /* Pods-ArcGISAccuTerraDemo_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcGISAccuTerraDemo_iOS.release.xcconfig"; path = "Target Support Files/Pods-ArcGISAccuTerraDemo_iOS/Pods-ArcGISAccuTerraDemo_iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BD40AC52575730A00B484C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C064BECEDD077E266A417F /* Pods_ArcGISAccuTerraDemo_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BD40ABF2575730A00B484C8 = {
+			isa = PBXGroup;
+			children = (
+				6BD40ACA2575730A00B484C8 /* ArcGISAccuTerraDemo_iOS */,
+				6BD40AC92575730A00B484C8 /* Products */,
+				B5424441F0C3AA01926C1A4A /* Pods */,
+				B054C2FA7CC3B423D2202BD3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BD40AC92575730A00B484C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BD40AC82575730A00B484C8 /* ArcGISAccuTerraDemo_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BD40ACA2575730A00B484C8 /* ArcGISAccuTerraDemo_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6BD40ACB2575730A00B484C8 /* AppDelegate.swift */,
+				6BD40ACD2575730A00B484C8 /* SceneDelegate.swift */,
+				6BD40ACF2575730A00B484C8 /* ViewController.swift */,
+				6BD40AD12575730A00B484C8 /* Main.storyboard */,
+				6BD40AD42575730D00B484C8 /* Assets.xcassets */,
+				6BD40AD62575730D00B484C8 /* LaunchScreen.storyboard */,
+				6BD40AD92575730D00B484C8 /* Info.plist */,
+			);
+			path = ArcGISAccuTerraDemo_iOS;
+			sourceTree = "<group>";
+		};
+		B054C2FA7CC3B423D2202BD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F7A8157174EA657CEADA55B /* Pods_ArcGISAccuTerraDemo_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5424441F0C3AA01926C1A4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D255804B05F0CB9DE06C055 /* Pods-ArcGISAccuTerraDemo_iOS.debug.xcconfig */,
+				BC521650AAE77B2F5EEC1099 /* Pods-ArcGISAccuTerraDemo_iOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BD40AC72575730A00B484C8 /* ArcGISAccuTerraDemo_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BD40ADC2575730D00B484C8 /* Build configuration list for PBXNativeTarget "ArcGISAccuTerraDemo_iOS" */;
+			buildPhases = (
+				CF3DDBAF60672E28A3E24CB5 /* [CP] Check Pods Manifest.lock */,
+				6BD40AC42575730A00B484C8 /* Sources */,
+				6BD40AC52575730A00B484C8 /* Frameworks */,
+				6BD40AC62575730A00B484C8 /* Resources */,
+				9B04213A24AD0260AB0F9B03 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcGISAccuTerraDemo_iOS;
+			productName = ArcGISAccuTerraDemo_iOS;
+			productReference = 6BD40AC82575730A00B484C8 /* ArcGISAccuTerraDemo_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BD40AC02575730A00B484C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					6BD40AC72575730A00B484C8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 6BD40AC32575730A00B484C8 /* Build configuration list for PBXProject "ArcGISAccuTerraDemo_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BD40ABF2575730A00B484C8;
+			productRefGroup = 6BD40AC92575730A00B484C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BD40AC72575730A00B484C8 /* ArcGISAccuTerraDemo_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BD40AC62575730A00B484C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD40AD82575730D00B484C8 /* LaunchScreen.storyboard in Resources */,
+				6BD40AD52575730D00B484C8 /* Assets.xcassets in Resources */,
+				6BD40AD32575730A00B484C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B04213A24AD0260AB0F9B03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArcGISAccuTerraDemo_iOS/Pods-ArcGISAccuTerraDemo_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArcGISAccuTerraDemo_iOS/Pods-ArcGISAccuTerraDemo_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArcGISAccuTerraDemo_iOS/Pods-ArcGISAccuTerraDemo_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF3DDBAF60672E28A3E24CB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcGISAccuTerraDemo_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BD40AC42575730A00B484C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD40AD02575730A00B484C8 /* ViewController.swift in Sources */,
+				6BD40ACC2575730A00B484C8 /* AppDelegate.swift in Sources */,
+				6BD40ACE2575730A00B484C8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BD40AD12575730A00B484C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD40AD22575730A00B484C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BD40AD62575730D00B484C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD40AD72575730D00B484C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BD40ADA2575730D00B484C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BD40ADB2575730D00B484C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BD40ADD2575730D00B484C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D255804B05F0CB9DE06C055 /* Pods-ArcGISAccuTerraDemo_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PK2TWU892A;
+				INFOPLIST_FILE = ArcGISAccuTerraDemo_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neotreks.ArcGISAccuTerraDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BD40ADE2575730D00B484C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC521650AAE77B2F5EEC1099 /* Pods-ArcGISAccuTerraDemo_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PK2TWU892A;
+				INFOPLIST_FILE = ArcGISAccuTerraDemo_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neotreks.ArcGISAccuTerraDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BD40AC32575730A00B484C8 /* Build configuration list for PBXProject "ArcGISAccuTerraDemo_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD40ADA2575730D00B484C8 /* Debug */,
+				6BD40ADB2575730D00B484C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BD40ADC2575730D00B484C8 /* Build configuration list for PBXNativeTarget "ArcGISAccuTerraDemo_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD40ADD2575730D00B484C8 /* Debug */,
+				6BD40ADE2575730D00B484C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BD40AC02575730A00B484C8 /* Project object */;
+}
